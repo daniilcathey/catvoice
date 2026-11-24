@@ -6,7 +6,7 @@
 
 ## Что это
 
-- Программа для Windows: 17 русских голосов (мужской и женский для каждой расы и рассказчик) и синтезатор речи.
+- Программа для Windows: 17 голосов (мужской и женский для каждой расы и рассказчик) и синтезатор речи. Русские сообщения читаются по-русски, английские — по-английски.
 - Работает на вашем компьютере. Интернет, учётные записи и видеокарта не нужны, текст чата никуда не уходит.
 - Сама по себе ничего не делает: голосами пользуется аддон CatChat.
 
@@ -23,8 +23,19 @@
 ## Что нужно
 
 - Windows 10 или 11, 64 бита.
-- 2 ГБ на диске.
 - World of Warcraft Forever, русский клиент, аддон CatChat.
+
+## Чего это стоит компьютеру
+
+Голоса считает ваш компьютер. Цифры — с восьмиядерного Ryzen 7.
+
+- Скачать 820 МБ, на диске 1,7 ГБ.
+- Память: около 1,6 ГБ, пока программа запущена.
+- Процессор: в тишине ноль; пока звучит речь — примерно половина одного ядра.
+- Видеокарта не используется, подойдёт любая.
+
+Программа запускается вместе с Windows, чтобы голоса были готовы сразу. Остановить её или убрать из автозапуска
+можно значком с котом у часов.
 
 ## Что программа меняет в системе
 
@@ -66,6 +77,6 @@ Get-FileHash .\CatVoice-Setup-0.1.0.exe -Algorithm SHA256
 
 CatVoice provides Russian voices for the **CatChat** addon (World of Warcraft Forever, Russian client): chat is read aloud in a voice matching the sender's race and sex.
 
-**[Download the latest release](../../releases/latest)**. Windows 10 or 11, 64-bit, 2 GB of disk space. Everything runs locally: no internet, no accounts, no GPU.
+**[Download the latest release](../../releases/latest)**. Windows 10 or 11, 64-bit. Everything runs locally: no internet, no accounts, no GPU. Cost to your PC: 820 MB download, 1.7 GB on disk, about 1.6 GB of RAM while running, roughly half a CPU core while speech is playing. English messages are read in English.
 
 Close the game, run the installer (Windows SmartScreen will warn about an unknown publisher: choose "More info", then "Run anyway"), listen for the test phrase, then install the CatChat addon. To remove: Start menu, CatVoice, "Удалить CatVoice".
