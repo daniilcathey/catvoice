@@ -15,10 +15,19 @@
 1. Закройте игру.
 2. Запустите `CatVoice-Setup-<версия>.exe`.
    Windows покажет синее окно «Система Windows защитила ваш компьютер»: у установщика нет платной подписи издателя. Нажмите «Подробнее», затем «Выполнить в любом случае».
-3. В конце оставьте галочку «Проверить голос сейчас». В течение минуты прозвучит фраза.
+3. В конце оставьте галочку «Проверить голос сейчас». Первый запуск синтезатора после установки занимает от минуты до нескольких минут: Windows проверяет файлы программы. Потом прозвучит фраза.
 4. Поставьте аддон CatChat и заходите в игру: аддон сам проведёт по настройке.
 
 Обновление — новым установщиком поверх старого, удалять прежнюю версию не нужно.
+
+## Если Windows не даёт скачать или запустить
+
+У установщика нет платной подписи издателя, поэтому браузер и Windows его придерживают. Это тот же файл, что на странице выпуска; сверить его можно по контрольной сумме (раздел «Проверка файла» ниже).
+
+- **Браузер пишет, что файл «обычно не скачивают» или он «может быть опасен».** Откройте список загрузок (Ctrl+J). В Edge: у файла «…» → «Сохранить» → «Подробнее» → «Всё равно сохранить». В Chrome: у файла выберите «Скачать» или «Всё равно сохранить» (название кнопки зависит от версии браузера).
+- **Синее окно «Система Windows защитила ваш компьютер».** «Подробнее», затем «Выполнить в любом случае».
+- **Кнопки «Выполнить в любом случае» нет или установщик не запускается.** Щёлкните файл правой кнопкой → «Свойства» → внизу вкладки «Общие» поставьте галочку «Разблокировать» → «ОК». Запустите снова.
+- **Файл исчез сразу после скачивания** — его убрал Защитник Windows. «Безопасность Windows» → «Защита от вирусов и угроз» → «Журнал защиты» → запись про `CatVoice-Setup` → «Действия» → «Восстановить» или «Разрешить на устройстве».
 
 ## Что нужно
 
@@ -79,4 +88,4 @@ CatVoice provides Russian voices for the **CatChat** addon (World of Warcraft Fo
 
 **[Download the latest release](../../releases/latest)**. Windows 10 or 11, 64-bit. Everything runs locally: no internet, no accounts, no GPU. Cost to your PC: 820 MB download, 1.7 GB on disk, about 1.6 GB of RAM while running, roughly half a CPU core while speech is playing. English messages are read in English.
 
-Close the game, run the installer (Windows SmartScreen will warn about an unknown publisher: choose "More info", then "Run anyway"), listen for the test phrase, then install the CatChat addon. To remove: Start menu, CatVoice, "Удалить CatVoice".
+Close the game, run the installer (Windows SmartScreen will warn about an unknown publisher: choose "More info", then "Run anyway"), listen for the test phrase, then install the CatChat addon. If the browser blocks the download, open the downloads list (Ctrl+J) and choose "Keep" → "Show more" → "Keep anyway"; if the installer will not start, right-click it → Properties → tick "Unblock". The first start after installing can take a few minutes. To remove: Start menu, CatVoice, "Удалить CatVoice".
